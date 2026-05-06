@@ -1,26 +1,27 @@
-# PixieNextMove Bot
+# 🧚 PixieNextMove Bot
 
-A standalone Python bot for finding the best next move in **Pixie Chess**.
+**Pixie Chess Next Move Analyzer** — A command-line bot modeled after chessnextmove.com, built specifically for **Pixie Chess** (pixiechess.xyz).
 
 ## Features
-- Full chess rules using `python-chess`
-- Minimax AI with alpha-beta pruning
-- Extensible system for Pixie Chess magical abilities
-- Interactive CLI interface
+- Standard chess rules via `python-chess`
+- Minimax AI with alpha-beta pruning for strong move suggestions
+- Easy-to-extend framework for Pixie Chess magical abilities
+- Clean interactive CLI
 
-## Installation
+## Quick Start
+
 ```bash
 git clone https://github.com/enryu8191/pixienextmove.git
 cd pixienextmove
 pip install chess
-```
-
-## Usage
-```bash
 python pixie_next_move_bot.py
 ```
 
-Paste FEN positions from pixiechess.xyz to get expert move recommendations.
+## How to Use
+- Press **Enter** for a new game
+- Paste any **FEN** string from Pixie Chess to analyze that position
+- Type `quit` to exit
 
-## Adding New Pixie Pieces
-Edit the `PIXIE_OVERRIDES` dictionary and `apply_pixie_overrides()` function in `pixie_next_move_bot.py` to support new magical abilities.
+The bot is fully functional for standard chess and ready for Pixie-specific ability extensions.
+
+Made for the growing Pixie Chess community (@PixieChess).
